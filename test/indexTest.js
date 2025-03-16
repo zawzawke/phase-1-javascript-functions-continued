@@ -28,7 +28,6 @@ describe("index.js", () => {
       expect(mondayWork("work from home")).to.equal("This Monday, I will work from home.")
     })
   })
-
   describe("defines wrapAdjective function according to the specification", function() {
     it("function exists", function() {
       expect(wrapAdjective).to.exist
